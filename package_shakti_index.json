@@ -1,0 +1,78 @@
+{
+  "packages": [
+    {
+      "name": "shakti",
+      "maintainer": "IITM",
+      "websiteURL": "https://shakti.org.in",
+      "email": "shakti.iitm@gmail.com",
+      "help": {
+        "online":"https://gitlab.com/shaktiproject/software/shakti-arduino-ide"
+      },
+      "platforms": [
+        {
+          "category": "Contributed",
+          "name": "Shakti",
+          "url": "https://gitlab.com/shaktiproject/software/shakti-arduinoide-tar/raw/master/shakti.tar.bz2",
+          "checksum": "SHA-256:9f256410fdb766fa405e86bf8424eb462c35420e4d28d23f8af1bb5a60d31520",
+          "version": "1.0.0",
+          "architecture": "riscv",
+          "archiveFileName": "shakti.tar.bz2",
+          "size": "75377",
+          "boards": [
+            {
+              "name": "Parashu"
+            },
+            {
+              "name": "Pinaka"
+            },
+            {
+              "name": "Artix7_35t"
+            }
+		
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "shakti",
+              "version": "1.0",
+              "name": "riscv32-unknown-elf-gcc"
+            },
+            {
+              "packager": "shakti",
+              "version": "1.0",
+              "name": "openocd"
+            }
+          ]
+          
+        }
+      ],
+      "tools": [
+        {
+          "version": "1.0",
+          "name": "riscv32-unknown-elf-gcc",
+          "systems": [
+            {
+              "url": "https://gitlab.com/shaktiproject/software/shakti-arduinoide-tar/raw/master/riscv32-unknown-elf.tar.bz2",
+              "checksum": "SHA-256:7fb8400999d5c518253b5c60b4df6b8b22f1c29a71ab4ad3ec146ec1ecac3adc",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "riscv32-unknown-elf.tar.bz2",
+              "size": "908865825"
+            }
+          ]
+        },
+        {
+          "version": "1.0",
+          "name": "openocd",
+          "systems": [
+            {
+              "url": "https://gitlab.com/shaktiproject/software/shakti-arduinoide-tar/raw/master/openocd.tar.bz2",
+              "checksum": "SHA-256:11f7ce0116b74ff57262f5ca244a8bee2ce6928638f9af9a46dbbb06595cb22f",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "openocd.tar.bz2",
+              "size": "5598145"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
