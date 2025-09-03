@@ -1,0 +1,72 @@
+    menu.toolsloc=Tool Install Location
+    
+    parashu.name=Parashu
+    parashu.menu.toolsloc.default=Default
+    parashu.menu.toolsloc.manual=Manual
+    parashu.menu.toolsloc.default.compiler.path={runtime.tools.riscv32-unknown-elf-gcc.path}/bin/
+    parashu.menu.toolsloc.manual.compiler.path=
+    #Point to the file for ./variants/<variant>/pins_arduino.h
+    parashu.build.variant=parashu
+    parashu.build.mcu=rv32imac
+    #"The 'core' file directory for this board, in ./cores
+    parashu.build.core=arduino
+    # This sets a define for use in the compiled code.
+    #TODO: Use a different one.
+    parashu.build.board=SHAKTI_ECLS
+    parashu.build.boardenv=parashu
+    parashu.build.sdata.size=4096
+    #This selects the tool from "programmers.txt"
+    parashu.program.tool=openocd_flash
+    parashu.upload.tool=openocd_flash
+    # Limit is the 128Mb Flash. Assume half is used for something else.
+    parashu.upload.maximum_size=8388608
+    parashu.build.ldscript={compiler.sdk.path}/third_party/parashu/link.ld
+    parashu.build.openocdcfg=ftdi.cfg
+
+## Pinaka 
+    pinaka.name=Pinaka
+    pinaka.menu.toolsloc.default=Default
+    pinaka.menu.toolsloc.manual=Manual
+    pinaka.menu.toolsloc.default.compiler.path={runtime.tools.riscv32-unknown-elf-gcc.path}/bin/
+    pinaka.menu.toolsloc.manual.compiler.path=
+    #Point to the file for ./variants/<variant>/pins_arduino.h
+    pinaka.build.variant=pinaka
+    pinaka.build.mcu=rv32imac
+    #"The 'core' file directory for this board, in ./cores
+    pinaka.build.core=arduino
+    # This sets a define for use in the compiled code.
+    #TODO: Use a different one.
+    pinaka.build.board=SHAKTI_ECLS
+    pinaka.build.boardenv=pinaka
+    pinaka.build.sdata.size=4096
+    #This selects the tool from "programmers.txt"
+    pinaka.program.tool=openocd_flash
+    pinaka.upload.tool=openocd_flash
+    # Limit is the 128Mb Flash. Assume half is used for something else.
+    pinaka.upload.maximum_size=8388608
+    pinaka.build.ldscript={compiler.sdk.path}/third_party/pinaka/link.ld
+    pinaka.build.openocdcfg=ftdi.cfg
+
+## ARTIX7_35T
+    Ecls35t.name=Artix7_35t
+    Ecls35t.menu.toolsloc.default=Default
+    Ecls35t.menu.toolsloc.manual=Manual
+    Ecls35t.menu.toolsloc.default.compiler.path={runtime.tools.riscv32-unknown-elf-gcc.path}/bin/
+    Ecls35t.menu.toolsloc.manual.compiler.path=
+    #Point to the file for ./variants/<variant>/pins_arduino.h
+    Ecls35t.build.variant=artix7_35t
+    Ecls35t.build.mcu=rv32imac
+    #"The 'core' file directory for this board, in ./cores
+    Ecls35t.build.core=arduino
+    # This sets a define for use in the compiled code.
+    #TODO: Use a different one.
+    Ecls35t.build.board=SHAKTI_ECLS
+    Ecls35t.build.boardenv=artix7_35t
+    Ecls35t.build.sdata.size=4096
+    #This selects the tool from "programmers.txt"
+    Ecls35t.program.tool=openocd_flash
+    Ecls35t.upload.tool=openocd_flash
+    # Limit is the 128Mb Flash. Assume half is used for something else.
+    Ecls35t.upload.maximum_size=8388608
+    Ecls35t.build.ldscript={compiler.sdk.path}/third_party/artix7_35t/link.ld
+    Ecls35t.build.openocdcfg=ftdi.cfg
