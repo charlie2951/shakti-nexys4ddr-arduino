@@ -12,7 +12,7 @@
         {
           "category": "Contributed",
           "name": "Shakti",
-          "url": "https://gitlab.com/shaktiproject/software/shakti-arduinoide-tar/raw/master/shakti.tar.bz2",
+          "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/blob/main/shakti.tar.bz2",
           "checksum": "SHA-256:9f256410fdb766fa405e86bf8424eb462c35420e4d28d23f8af1bb5a60d31520",
           "version": "1.0.0",
           "architecture": "riscv",
@@ -100,7 +100,7 @@
           "name": "openocd",
           "systems": [
             {
-              "url": "https://gitlab.com/shaktiproject/software/shakti-arduinoide-tar/raw/master/openocd.tar.bz2",
+              "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/blob/main/toolchain/windows/openocd_win.7z",
               "checksum": "SHA-256:11f7ce0116b74ff57262f5ca244a8bee2ce6928638f9af9a46dbbb06595cb22f",
               "host": "x86_64-pc-mingw32",
               "archiveFileName": "openocd.tar.bz2",
