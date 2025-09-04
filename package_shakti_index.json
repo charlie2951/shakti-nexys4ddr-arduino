@@ -6,7 +6,7 @@
       "websiteURL": "",
       "email": "",
       "help": {
-        "online":"https://github.com/charlie2951/shakti-nexys4ddr-arduino"
+        "online": "https://github.com/charlie2951/shakti-nexys4ddr-arduino"
       },
       "platforms": [
         {
@@ -27,39 +27,35 @@
             },
             {
               "name": "Artix7_35t"
-            },
-            {
-              "name": "Artix7_35t"
             }
-		
           ],
           "toolsDependencies": [
             {
               "packager": "shakti-linux",
-              "version": "1.1",
+              "version": "1.0",
               "name": "riscv32-unknown-elf-gcc"
             },
             {
               "packager": "shakti-linux",
-              "version": "1.1",
+              "version": "1.0",
               "name": "openocd"
             },
-			{
+            {
               "packager": "shakti-win64",
-              "version": "1.1",
-              "name": "riscv64-unknown-elf-gcc"
+              "version": "1.0",
+              "name": "riscv32-unknown-elf-gcc"
             },
-			{
+            {
               "packager": "shakti-win64",
-              "version": "1.1",
+              "version": "1.0",
               "name": "openocd"
             }
           ]
-          
         }
       ],
       "tools": [
         {
+          "packager": "shakti-linux",
           "version": "1.0",
           "name": "riscv32-unknown-elf-gcc",
           "systems": [
@@ -70,11 +66,12 @@
               "archiveFileName": "riscv32-unknown-elf.tar.bz2",
               "size": "908865825"
             }
-		  ]
+          ]
         },
-		  {
+        {
+          "packager": "shakti-win64",
           "version": "1.0",
-          "name": "riscv64-unknown-elf-gcc",
+          "name": "riscv32-unknown-elf-gcc",
           "systems": [
             {
               "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/blob/main/toolchain/windows/riscv32-unknown-elf_win.7z",
@@ -83,11 +80,12 @@
               "archiveFileName": "riscv32-unknown-elf_win.7z",
               "size": "182278899"
             }
-		  ]
+          ]
         },
         {
+          "packager": "shakti-linux",
           "version": "1.0",
-          "name": "openocd-linux",
+          "name": "openocd",
           "systems": [
             {
               "url": "https://gitlab.com/shaktiproject/software/shakti-arduinoide-tar/raw/master/openocd.tar.bz2",
@@ -98,9 +96,10 @@
             }
           ]
         },
-		  {
+        {
+          "packager": "shakti-win64",
           "version": "1.0",
-          "name": "openocd-windows",
+          "name": "openocd",
           "systems": [
             {
               "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/blob/main/toolchain/windows/openocd_win.7z",
