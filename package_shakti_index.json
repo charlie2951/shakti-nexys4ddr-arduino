@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "shakti-nexys4ddr",
+      "name": "Shakti Nexys4 DDR E-class RISC-V 32bit SoC",
       "maintainer": "Subir Maity",
       "websiteURL": "",
       "email": "",
@@ -27,9 +27,9 @@
             },
             {
               "name": "Artix7_35t"
-            }
+            },
             {
-              "name": "Nexys4_DDR"
+              "name": "Artix7_35t"
             }
 		
           ],
