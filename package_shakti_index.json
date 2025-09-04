@@ -3,8 +3,8 @@
     {
       "name": "Shakti Nexys4 DDR E-class RISC-V 32bit SoC",
       "maintainer": "Subir Maity",
-      "websiteURL": "",
-      "email": "",
+      "websiteURL": "www.kiit.ac.in",
+      "email": "ss@example.com",
       "help": {
         "online": "https://github.com/charlie2951/shakti-nexys4ddr-arduino"
       },
@@ -31,22 +31,22 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "shakti-linux",
+              "packager": "shakti",
               "version": "1.0",
               "name": "riscv32-unknown-elf-gcc"
             },
             {
-              "packager": "shakti-linux",
+              "packager": "shakti",
               "version": "1.0",
               "name": "openocd"
             },
             {
-              "packager": "shakti-win64",
+              "packager": "shakti",
               "version": "1.0",
-              "name": "riscv32-unknown-elf-gcc"
+              "name": "riscv64-unknown-elf-gcc"
             },
             {
-              "packager": "shakti-win64",
+              "packager": "shakti",
               "version": "1.0",
               "name": "openocd"
             }
@@ -55,7 +55,7 @@
       ],
       "tools": [
         {
-          "packager": "shakti-linux",
+          "packager": "shakti",
           "version": "1.0",
           "name": "riscv32-unknown-elf-gcc",
           "systems": [
@@ -69,9 +69,9 @@
           ]
         },
         {
-          "packager": "shakti-win64",
+          "packager": "shakti",
           "version": "1.0",
-          "name": "riscv32-unknown-elf-gcc",
+          "name": "riscv64-unknown-elf-gcc",
           "systems": [
             {
               "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/blob/main/toolchain/windows/riscv32-unknown-elf_win.7z",
@@ -83,7 +83,7 @@
           ]
         },
         {
-          "packager": "shakti-linux",
+          "packager": "shakti",
           "version": "1.0",
           "name": "openocd",
           "systems": [
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "packager": "shakti-win64",
+          "packager": "shakti",
           "version": "1.0",
           "name": "openocd",
           "systems": [
