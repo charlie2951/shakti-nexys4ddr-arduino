@@ -3,8 +3,8 @@
     {
       "name": "shakti-nexys4ddr",
       "maintainer": "Subir Maity",
-      "websiteURL": "https://sites.google.com/kiit.ac.in/prof-subirmaity",
-      "email": "subir.2006@gmail.com",
+      "websiteURL": "",
+      "email": "",
       "help": {
         "online":"https://github.com/charlie2951/shakti-nexys4ddr-arduino"
       },
@@ -27,6 +27,9 @@
             },
             {
               "name": "Artix7_35t"
+            }
+            {
+              "name": "Nexys4_DDR"
             }
 		
           ],
@@ -57,7 +60,7 @@
       ],
       "tools": [
         {
-          "version": "1.1",
+          "version": "1.0",
           "name": "riscv32-unknown-elf-gcc",
           "systems": [
             {
@@ -70,21 +73,21 @@
 		  ]
         },
 		  {
-          "version": "1.1",
+          "version": "1.0",
           "name": "riscv64-unknown-elf-gcc",
           "systems": [
             {
-              "url": "https://gitlab.com/shaktiproject/software/shakti-arduinoide-tar/raw/master/riscv32-unknown-elf.tar.bz2",
-              "checksum": "SHA-256:7fb8400999d5c518253b5c60b4df6b8b22f1c29a71ab4ad3ec146ec1ecac3adc",
+              "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/blob/main/toolchain/windows/riscv32-unknown-elf_win.7z",
+              "checksum": "SHA-256:f9b2a15ef9b69cda19a2e44f6225dd454be855f0faa308511214451564be6b76",
               "host": "x86_64-pc-mingw32",
-              "archiveFileName": "riscv32-unknown-elf.tar.bz2",
-              "size": "908865825"
+              "archiveFileName": "riscv32-unknown-elf_win.7z",
+              "size": "182278899"
             }
 		  ]
         },
         {
-          "version": "1.1",
-          "name": "openocd",
+          "version": "1.0",
+          "name": "openocd-linux",
           "systems": [
             {
               "url": "https://gitlab.com/shaktiproject/software/shakti-arduinoide-tar/raw/master/openocd.tar.bz2",
@@ -96,15 +99,15 @@
           ]
         },
 		  {
-          "version": "1.1",
-          "name": "openocd",
+          "version": "1.0",
+          "name": "openocd-windows",
           "systems": [
             {
               "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/blob/main/toolchain/windows/openocd_win.7z",
-              "checksum": "SHA-256:11f7ce0116b74ff57262f5ca244a8bee2ce6928638f9af9a46dbbb06595cb22f",
+              "checksum": "SHA-256:cb8235eb22b7fa200a9247c672a571caf1a274f0b03fc0861a7f460695fc43ec",
               "host": "x86_64-pc-mingw32",
-              "archiveFileName": "openocd.tar.bz2",
-              "size": "5598145"
+              "archiveFileName": "openocd_win.7z",
+              "size": "7674407"
             }
           ]
         }
