@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "shakti risc v nexys",
+      "name": "shakti",
       "maintainer": "IITM",
       "websiteURL": "https://shakti.org.in",
       "email": "shakti.iitm@gmail.com",
