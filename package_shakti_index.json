@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "Shakti Nexys4 DDR E-class RISC-V 32bit SoC",
+      "name": "shakti",
       "maintainer": "Subir Maity",
       "websiteURL": "www.kiit.ac.in",
       "email": "ss@example.com",
