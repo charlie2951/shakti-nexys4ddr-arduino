@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "Shakti-Nexys4-DDR",
+      "name": "shakti Nexys4-DDR",
       "maintainer": "Subir Maity",
       "websiteURL": "",
       "email": "ss@example.com",
