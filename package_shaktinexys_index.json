@@ -1,25 +1,25 @@
 {
-  "packages": [
-    {
-      "name": "shakti Nexys4-DDR",
-      "maintainer": "Subir Maity",
-      "websiteURL": "",
-      "email": "ss@example.com",
-      "help": {
-        "online": "https://github.com/charlie2951/shakti-nexys4ddr-arduino"
-      },
-      "platforms": [
-        {
-          "category": "Contributed",
-          "name": "Shakti",
-          "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/raw/main/shakti.tar.bz2",
-          "checksum": "SHA-256:9f256410fdb766fa405e86bf8424eb462c35420e4d28d23f8af1bb5a60d31520",
-          "version": "1.0.0",
-          "architecture": "riscv",
-          "archiveFileName": "shakti.tar.bz2",
-          "size": "75377",
-          "boards": [
-            {
+    "packages": [
+	{
+	    "name": "shakti",
+	    "maintainer": "Subir Maity",
+	    "websiteURL": "",
+	    "email": "", 
+	    "help": {
+		"online": ""
+	    },
+	    "platforms": [
+		{
+		    "category": "shakti",
+		    "name": "Shakti E-class SoC on Nexys4-DDR FPGA Boards",
+		    "url": "https://gitlab.com/shaktiproject/software/shakti-arduinoide-tar/raw/master/shakti.tar.bz2",
+          	"checksum": "SHA-256:9f256410fdb766fa405e86bf8424eb462c35420e4d28d23f8af1bb5a60d31520",
+          	"version": "1.0.0",
+		    "archiveFileName": "shakti.tar.bz2",
+		    "size": "68112",
+		    "architecture": "riscv",
+		    "boards": [
+			{
               "name": "Parashu"
             },
             {
@@ -28,89 +28,80 @@
             {
               "name": "Artix7_35t"
             }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "shakti",
-              "version": "1.0",
-              "name": "riscv32-unknown-elf-gcc"
-            },
-            {
-              "packager": "shakti",
-              "version": "1.0",
-              "name": "openocd"
-            },
-            {
-              "packager": "shakti",
-              "version": "1.0",
-              "name": "riscv64-unknown-elf-gcc"
-            },
-            {
-              "packager": "shakti",
-              "version": "1.0",
-              "name": "openocd"
-            }
-          ]
-        }
-      ],
-      "tools": [
-        {
-          "packager": "shakti",
-          "version": "1.0",
-          "name": "riscv32-unknown-elf-gcc",
-          "systems": [
-            {
-              "url": "https://gitlab.com/shaktiproject/software/shakti-arduinoide-tar/raw/master/riscv32-unknown-elf.tar.bz2",
-              "checksum": "SHA-256:7fb8400999d5c518253b5c60b4df6b8b22f1c29a71ab4ad3ec146ec1ecac3adc",
-              "host": "x86_64-pc-linux-gnu",
-              "archiveFileName": "riscv32-unknown-elf.tar.bz2",
-              "size": "908865825"
-            }
-          ]
-        },
-        {
-          "packager": "shakti",
-          "version": "1.0",
-          "name": "riscv64-unknown-elf-gcc",
-          "systems": [
-            {
-              "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/raw/main/toolchain/windows/riscv32-unknown-elf_win.7z",
-              "checksum": "SHA-256:f9b2a15ef9b69cda19a2e44f6225dd454be855f0faa308511214451564be6b76",
-              "host": "x86_64-pc-mingw32",
-              "archiveFileName": "riscv32-unknown-elf_win.7z",
-              "size": "182278899"
-            }
-          ]
-        },
-        {
-          "packager": "shakti",
-          "version": "1.0",
-          "name": "openocd",
-          "systems": [
-            {
-              "url": "https://gitlab.com/shaktiproject/software/shakti-arduinoide-tar/raw/master/openocd.tar.bz2",
-              "checksum": "SHA-256:11f7ce0116b74ff57262f5ca244a8bee2ce6928638f9af9a46dbbb06595cb22f",
-              "host": "x86_64-pc-linux-gnu",
-              "archiveFileName": "openocd.tar.bz2",
-              "size": "5598145"
-            }
-          ]
-        },
-        {
-          "packager": "shakti",
-          "version": "1.0",
-          "name": "openocd",
-          "systems": [
-            {
-              "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/raw/main/toolchain/windows/openocd_win.7z",
-              "checksum": "SHA-256:cb8235eb22b7fa200a9247c672a571caf1a274f0b03fc0861a7f460695fc43ec",
-              "host": "x86_64-pc-mingw32",
-              "archiveFileName": "openocd_win.7z",
-              "size": "7674407"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+
+		    ], 
+		    "toolsDependencies": [
+			{
+			    "packager": "shakti",
+			    "version": "001",
+			    "name": "riscv64-vega-elf-gcc"
+			},
+			{
+			    "packager": "shakti",
+			    "version": "001",
+			    "name": "openocd"
+			}
+		    ]
+		}
+	    ],
+	    "tools": [
+		{
+		    "version": "001",
+		    "name": "riscv64-vega-elf-gcc",
+		    "systems": [
+			{
+			    "url": "https://gitlab.com/riscv-vega/vega-tools/-/archive/main/vega-tools-main.tar.bz2",
+			    "checksum": "SHA-256:e2a7a87e60f8c21870405315887a4c67a1f90bc5d4ae71ca53e1d056a9510c32",
+			    "host": "x86_64-pc-linux-gnu",
+			    "archiveFileName": "vega-tools-main.tar.bz2",
+			    "size": "395389010"
+			},
+			{
+			    "url": "https://gitlab.com/riscv-vega/vega-tools-windows/-/archive/main/vega-tools-windows-main.tar.bz2",
+			    "checksum": "SHA-256:18c05e99265ed13cb07fe53fe1acefcc08bc9fe6c1223b72077306c306161b0d",
+			    "host": "i686-mingw32",
+			    "archiveFileName": "vega-tools-windows-main.tar.bz2",
+			    "size": "73681978"
+			},
+			{
+			    "url": "https://gitlab.com/riscv-vega/vega-tools-windows/-/archive/main/vega-tools-windows-main.tar.bz2",
+			    "checksum": "SHA-256:18c05e99265ed13cb07fe53fe1acefcc08bc9fe6c1223b72077306c306161b0d",
+			    "host": "x86_64-mingw32",
+			    "archiveFileName": "vega-tools-windows-main.tar.bz2",
+			    "size": "73681978"
+			}
+		    ]
+		},
+		
+		{
+			"version": "001",
+		    "name": "openocd",
+		    "systems": [
+			{
+				"url": "https://gitlab.com/shaktiproject/software/shakti-arduinoide-tar/raw/master/openocd.tar.bz2",
+              	"checksum": "SHA-256:11f7ce0116b74ff57262f5ca244a8bee2ce6928638f9af9a46dbbb06595cb22f",
+              	"host": "x86_64-pc-linux-gnu",
+              	"archiveFileName": "openocd.tar.bz2",
+              	"size": "5598145"
+			},
+			{
+			    "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/raw/main/toolchain/windows/openocd_win.7z",
+              	"checksum": "SHA-256:cb8235eb22b7fa200a9247c672a571caf1a274f0b03fc0861a7f460695fc43ec",
+              	"host": "x86_64-pc-mingw32",
+              	"archiveFileName": "openocd_win.7z",
+              	"size": "7674407"
+			},
+			{
+			    "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/raw/main/toolchain/windows/openocd_win.7z",
+              	"checksum": "SHA-256:cb8235eb22b7fa200a9247c672a571caf1a274f0b03fc0861a7f460695fc43ec",
+              	"host": "x86_64-pc-mingw32",
+              	"archiveFileName": "openocd_win.7z",
+              	"size": "7674407"
+			}
+		    ]
+		}
+	    ]
+	}
+    ]
 }
+
