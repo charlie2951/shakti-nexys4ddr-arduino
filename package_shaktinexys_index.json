@@ -13,10 +13,10 @@
 		    "category": "shakti",
 		    "name": "Shakti E-class SoC on Nexys4-DDR FPGA Boards",
 		    "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/raw/main/shakti.zip",
-          	"checksum": "SHA-256:ea41883e495639388443a6788b4c4d0ce43b5a548ae5995dfb6947eb2ee7c728",
+          	"checksum": "SHA-256:85d2a3353652eadb2fcf5cafc4b400e68218045baec7b39d24ad41dfdb534b55",
           	"version": "1.0.0",
 		    "archiveFileName": "shakti.zip",
-		    "size": "180907",
+		    "size": "176139",
 		    "architecture": "riscv",
 		    "boards": [
 			{
