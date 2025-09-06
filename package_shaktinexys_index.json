@@ -87,14 +87,14 @@
 			{
 			    "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/raw/main/toolchain/windows/openocd.zip",
               	"checksum": "SHA-256:816d0f9cc0e37d0f9adf404e26f5f557997d3be25ef747fda010973347e0e400",
-              	"host": "x86_64-pc-mingw32",
+              	"host": "x86_64-mingw32",
               	"archiveFileName": "openocd.zip",
               	"size": "2973486"
 			},
 			{
 			    "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/raw/main/toolchain/windows/openocd.zip",
               	"checksum": "SHA-256:816d0f9cc0e37d0f9adf404e26f5f557997d3be25ef747fda010973347e0e400",
-              	"host": "x86_64-pc-mingw32",
+              	"host": "i686-mingw32",
               	"archiveFileName": "openocd.zip",
               	"size": "2973486"
 			}
