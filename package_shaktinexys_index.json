@@ -13,10 +13,10 @@
 		    "category": "shakti",
 		    "name": "Shakti E-class SoC on Nexys4-DDR FPGA Boards",
 		    "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/raw/main/shakti.zip",
-          	"checksum": "SHA-256:62dc211635fb5f09ddfa3adfeda3865fba1023905938c196f53c115f832b7178",
+          	"checksum": "SHA-256:ea41883e495639388443a6788b4c4d0ce43b5a548ae5995dfb6947eb2ee7c728",
           	"version": "1.0.0",
 		    "archiveFileName": "shakti.zip",
-		    "size": "173137",
+		    "size": "180907",
 		    "architecture": "riscv",
 		    "boards": [
 			{
@@ -85,18 +85,18 @@
               	"size": "5598145"
 			},
 			{
-			    "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/raw/main/toolchain/windows/openocd_win.zip",
-              	"checksum": "SHA-256:a1c9fe8eec6ea3fbf85eb6c3ac25e0d80efb0881712540bcddf0a49b3dee219c",
+			    "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/raw/main/toolchain/windows/openocd.zip",
+              	"checksum": "SHA-256:816d0f9cc0e37d0f9adf404e26f5f557997d3be25ef747fda010973347e0e400",
               	"host": "x86_64-pc-mingw32",
-              	"archiveFileName": "openocd_win.zip",
-              	"size": "19490560"
+              	"archiveFileName": "openocd.zip",
+              	"size": "2973486"
 			},
 			{
-			    "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/raw/main/toolchain/windows/openocd_win.zip",
-              	"checksum": "SHA-256:a1c9fe8eec6ea3fbf85eb6c3ac25e0d80efb0881712540bcddf0a49b3dee219c",
+			    "url": "https://github.com/charlie2951/shakti-nexys4ddr-arduino/raw/main/toolchain/windows/openocd.zip",
+              	"checksum": "SHA-256:816d0f9cc0e37d0f9adf404e26f5f557997d3be25ef747fda010973347e0e400",
               	"host": "x86_64-pc-mingw32",
-              	"archiveFileName": "openocd_win.zip",
-              	"size": "19490560"
+              	"archiveFileName": "openocd.zip",
+              	"size": "2973486"
 			}
 		    ]
 		}
